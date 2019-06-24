@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        .Menu-kabinet__poloska
+        {
+            height: 120px;
+            width: 0.10em;
+            background-color: #1F2226;
+
+            background: linear-gradient(to top, #FFF4E0 5%, #1F2226 50%, #FFF4E0 95%);
+        }
+        .Menu-kabinet__text
+        {
+            margin-top: 0.5em;
+        }
+        .Menu-kabinet__formii{
+            padding: 10px 10px 10px 10px;
+        }
+        .Menu-kabinet__formii_size_big{
+            height: 20em;
+        }
+        .Menu-kabinet__formii_videlenie_true:hover
+        {
+            animation: Anim_orange  0.3s 1 ease-in-out;
+            background-color: #F8B500;
+        }
+
+        @keyframes Anim_orange {
+            from{
+                background-color: #FFF4E0;
+            }
+            to{
+                background-color: #F8B500;
+            }
+        }
+
+        .Menu-kabinet__doska
+        {
+            position: relative;
+        }
+        .Menu-kabinet__doska-element{
+            position: absolute;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body class="page">
+
+<div class="head page_head ">
+
+    <div class="contact head__contact">
+        <a href="#" class="contact__ssilka contact__ssilka_theme-left">город:</a>
+        <a href="#" class="contact__ssilka">доставка</a>
+        <a href="#" class="contact__ssilka">условия</a>
+        <a href="#" class="contact__ssilka">о нас</a>
+    </div>
+    <div class="contact_poloska"></div>
+    <div class="head__poloska">
+    </div>
+
+    <div class="header head__page">
+        <a href="#"  class="header_logo_img"> <img class="logo__img" src="./img/logo.png"/></a>
+
+
+        <a href="#" class="menu__ssilka znack__ssilka"><div class="button menu__button ">Каталог товаров</div></a>
+        <div class="button search header_search znack__ssilka znack__ssilka_margin-right_0">
+            <input type="text" class="input input__search" >
+            <a href="#" class="znack__ssilka"><div class="search__button">Искать</div></a>
+        </div>
+
+
+
+
+        <a href="#" class="znack__ssilka znack__like">
+            <div class="button button_znack">
+                <i class="fas fa-heart"></i>
+                <div class="znack__img-txt">Лайкнутое</div>
+            </div>
+        </a>
+
+        <a href="#" class="znack__ssilka">
+            <div class="button button_znack"><i class="fas fa-user"></i><div class="znack__img-txt">Кабинет</div></div>
+        </a>
+        <a href="#" class="znack__ssilka znack__ssilka_margin-right_0">
+            <div class="button button_znack">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="znack__img-txt">Корзина</div>
+            </div>
+        </a>
+
+    </div>
+
+
+    <div class="head__poloska">
+    </div>
+</div>
+
+<div class="bread">
+    <div class="bread__element"><a href="#" class="bread__element_el">Главная</a></div>
+    <div class="bread__element bread__element__konec"><a href="#" class="bread__element_el bread__element_el_color_black">Личный кабинет</a></div>
+</div>
+<div class="Page_fixed-element formii formii_theme_none Page__formii  Page__formii_width_big Page__formii_position_fixed formii__theme_row Page__formii_pos_center-fixed">
+    <div class="formii   formii__element Page__formii_position_fixed Page_formii_pos_left formii_theme_none">
+        <div class="formii">
+            <div class="zagolovok formi__zagolovok formii__zagalovok">Баланс </div>
+            <div class ="text ">3000</div>
+            <a href="#" class="Button Button_theme_red formii__button_margin_top">Пополнить</a>
+        </div>
+        <a href="#arenda" class="fas fa-tshirt fa-2x formii__element Page__font-awecome_color_black Page__font-awecome some_link1"></a>
+        <a href="#like" class="fas fa-heart fa-2x formii__element Page__font-awecome_color_red Page__font-awecome some_link3"></a>
+        <a href="#izbran" class="fas fa-star fa-2x formii__element Page__font-awecome_color_orange Page__font-awecome some_link2"></a>
+    </div>
+
+</div>
+
+
+<div id="app">
+        <div class="Menu-kabinet Page_Menu-kabinet ">
+            <dic class="formii formii_theme_none Page__formii Page__formii_pos_center ">
+
+                <div class="formii formii__theme_row formii_theme_none">
+
+                    <div class="Menu-kabinet__poloska"></div>
+
+                    <div class="formii formii_theme_none Menu-kabinet__formii Menu-kabinet__formii_videlenie_true" v-on:click="person=true; grafik=false; history=false; dostavka=false" v-bind:class="{'formii_theme_orange':person}">
+                        <div class="Menu-kabinet__icon">
+                                <i class="fas fa-address-card fa-3x"></i>
+                        </div>
+                        <div class="Menu-kabinet__text">Пользователь</div>
+                    </div>
+
+                    <div class="Menu-kabinet__poloska"></div>
+
+                    <div class="formii formii_theme_none Menu-kabinet__formii Menu-kabinet__formii_videlenie_true " v-on:click="person=false; grafik=false; history=true;dostavka=false;" v-bind:class="{'formii_theme_orange':history}">
+                        <div class="Menu-kabinet__icon">
+                            <i class="fas fa-file-alt fa-3x"></i>
+                        </div>
+                        <div class="Menu-kabinet__text">История операций</div>
+                    </div>
+
+                    <div class="Menu-kabinet__poloska"></div>
+
+                    <div class="formii formii_theme_none Menu-kabinet__formii Menu-kabinet__formii_videlenie_true" v-on:click="person=false; grafik=true; history=false;dostavka=false;" v-bind:class="{'formii_theme_orange':grafik}">
+                        <div class="Menu-kabinet__icon">
+                            <i class="fas fa-chart-pie fa-3x"></i>
+                        </div>
+                        <div class="Menu-kabinet__text">График списания</div>
+                    </div>
+
+                    <div class="Menu-kabinet__poloska"></div>
+
+                    <div class="formii formii_theme_none Menu-kabinet__formii Menu-kabinet__formii_videlenie_true"v-on:click="person=false; grafik=false; history=false; dostavka=true;" v-bind:class="{'formii_theme_orange':dostavka}">
+                        <div class="Menu-kabinet__icon">
+                            <i class="fas fa-shuttle-van fa-3x"></i>
+                        </div>
+                        <div class="Menu-kabinet__text">Доставка</div>
+                    </div>
+
+                    <div class="Menu-kabinet__poloska"></div>
+
+
+                </div>
+
+            </dic>
+        </div>
+
+        <div class="formii Menu-kabinet__formii Menu-kabinet__formii_size_big">
+
+            <div class="formii formii__theme_left  Page__formii Page__formii_pos_center formii_theme_none formii__theme_row" v-bind:class="{'Page_visible_false':!person}">
+
+                <div class="formii formii__element formii_theme_none">
+                    <div class="MN formii__theme_center">
+                        <img class="MN__img-big formii__element" src="MN/img/avatar.jpeg">
+                        <a class="formii formii_theme_none formii__theme_row" href="#">
+                            <div class="" href="#">
+                                <i class="fab fa-vk fa-2x"></i>
+                            </div>
+                            <div class="text formii__element">vk.com/@immortal_den</div>
+                        </a>
+                        <a class="formii formii_theme_none formii__theme_row" href="#">
+                            <div class="" href="#">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </div>
+                            <div class="text formii__element">@disanT</div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="formii formii__theme_left formii_theme_none formii__element">
+                    <div class="zagolovok formii__zagalovok formii__element">Имя: Киркоров Олег Викторович </div>
+                    <div class ="text formii__element">Пол: М</div>
+                    <div class ="text formii__element">Возраст: 20</div>
+                    <div class ="text formii__element">Email: kirki@mail.ru</div>
+                    <div class ="text formii__element">телефон: +79996840237</div>
+                    <div class="Button formii__element">Редактировать</div>
+                </div>
+            </div>
+
+
+            <div class="formii  Page__formii Page__formii_pos_center formii_theme_none" v-bind:class="{'Page_visible_false':!history}">
+                <div class="zagolovok formii__zagalovok"> История операций</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="text formii__element"> Снятие со счета 100 рублей. Остаток 1900 руб</div>
+                <div class="Button  formii__button_margin_top ">Раскрыть</div>
+            </div>
+
+            <div class="formii  Page__formii Page__formii_pos_center formii_theme_none " v-bind:class="{'Page_visible_false':!grafik}">
+                <div class="formii formii__theme_row formii_theme_none">
+                    <div class="formii formii_theme_black Page__formii">
+                        <div class="zagolovok"> 1 марта</div>
+                        <div class="text">Аренда: -300</div>
+                        <div class="text">Аренда: -300</div>
+
+                    </div>
+                    <div class="formii formii_theme_black Page__formii">
+                        <div class="zagolovok"> 2 марта</div>
+                        <div class="text">Аренда: -300</div>
+                        <div class="text">Аренда: -300</div>
+                    </div>
+                    <div class="formii formi_theme_orange Page__formii">
+                        <div class="zagolovok"> 3 марта</div>
+                        <div class="text">Аренда: -300</div>
+                        <div class="text">Аренда: -300</div>
+                    </div>
+                    <div class="formii formii_theme_black Page__formii">
+                        <div class="zagolovok"> 4 марта</div>
+                        <div class="text">Аренда: -300</div>
+                        <div class="text">Аренда: -300</div>
+                    </div>
+                    <div class="formii formii_theme_black Page__formii">
+                        <div class="zagolovok"> 5 марта</div>
+                        <div class="text">Аренда: -300</div>
+                        <div class="text">Аренда: -300</div>
+                    </div>
+                </div>
+                <div class="zagolovok">Итого по аренде за февраль: 9000</div>
+                <div class="zagolovok">Погонять каждый день до возврата: 900</div>
+                <div class="Button Button_theme_Orange Button  Button_theme_BigSize formii__Button formii__Button_theme_bigButton ">Подробнее</div>
+            </div>
+
+            <div class="formii   Page_formii_pos_left formii__element  formii_theme_none" v-bind:class="{'Page_visible_false':!dostavka}">
+                <div class="zagolovok formi__zagolovok formii__zagalovok">Доставка</div>
+                <div class="formii formii__theme_row formii_theme_none">
+                    <div class ="text formii__element">Куртка Бери-вери </div>
+                    <div class ="text formii__element">примерное время доставки: 09.03.2019 в 18:00</div>
+                </div>
+                <div class="formii formii__theme_row formii_theme_none">
+                    <div class ="text formii__element">Куртка Бери-вери </div>
+                    <div class ="text formii__element">примерное время доставки: 09.03.2019 в 18:00</div>
+                </div>
+                <div class="formii formii__theme_row formii_theme_none">
+                    <div class ="text formii__element">Куртка Бери-вери </div>
+                    <div class ="text formii__element">примерное время доставки: 09.03.2019 в 18:00</div>
+                </div>
+                <div class ="text ">3 вещи</div>
+                <div class="Button formii__button_margin_top">Подробнее</div>
+            </div>
+
+        </div>
+</div>
+
+<div class="zagolovok zagolovok_size_23pt Page__zagolovok" id="arenda">Вещи в аренде</div>
+
+<div class="formii  Page__formii ">
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+        <div class="formii formii_theme_none formii__formii">
+            <div class="formii formii_theme_none formii__theme_row Page__formii_margin-top-bottom_0px Page__formii_padding_0px">
+                <a class="Button Button_theme_red formii__Button" href="#">Написать отзыв</a>
+                <a class="Button formii__Button" href="#">Вернуть вещь</a>
+            </div>
+            <div class="formii formii_theme_none formii__theme_row Page__formii_margin-top-bottom_0px Page__formii_padding_0px">
+                <a class="Button formii__Button formii__Button_margin_center  " href="#">Оставить мнение</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+        <div class="formii formii_theme_none formii__formii">
+            <div class="formii formii_theme_none formii__theme_row Page__formii_margin-top-bottom_0px Page__formii_padding_0px">
+                <a class="Button Button_theme_red formii__Button" href="#">Написать отзыв</a>
+                <a class="Button formii__Button" href="#">Вернуть вещь</a>
+            </div>
+            <div class="formii formii_theme_none formii__theme_row Page__formii_margin-top-bottom_0px Page__formii_padding_0px">
+                <a class="Button formii__Button formii__Button_margin_center  " href="#">Оставить мнение</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Button Button_theme_Orange Button  Button_theme_BigSize formii__Button formii__Button_theme_big"> Подробнее </div>
+</div>
+
+<div class="zagolovok zagolovok_size_23pt Page__zagolovok" id="like">Лайкнутое</div>
+
+<div class="formii  Page__formii ">
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Button Button_theme_Orange Button  Button_theme_BigSize formii__Button formii__Button_theme_big"> Подробнее </div>
+</div>
+
+<div class="zagolovok zagolovok_size_23pt Page__zagolovok" id="izbran">Избранное</div>
+
+<div class="formii  Page__formii ">
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Tovar formii__element">
+        <div class="tovar__poloska"></div>
+        <div class="tovar Tovar__tovar">
+            <div class="tovar__img">
+                <img src="./tovars/img/krossy_one.jpg" class ="tovar__img__img">
+            </div>
+            <div class="tovar__opisanie">
+                <div class="tovar__opisanie__zagolovok__margin-bottom_50px">Куртка такая-то такая</div>
+                <div class="tovar__opisanie__text">Куртка из шерсти, со специальным теплоудерживающим покрытием, позволяюим выходить на улицу даже при -30</div>
+                <div class="tovar__opisanie__text">Материал текстиль</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Аренда с возможностью возврата</div>
+                <div class="tovar__opisanie__text">1500 руб/месяц</div>
+                <div class="tovar__opisanie__zagolovok zagolovok">Размер</div>
+                <div class="tovar__opisanie__text">L</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Button Button_theme_Orange Button  Button_theme_BigSize formii__Button formii__Button_theme_big"> Подробнее </div>
+</div>
+
+<div class="head page_head ">
+
+    <div class="head__poloska">
+    </div>
+
+    <div class="header head__page">
+
+
+        <div class="button menu__button_bott">
+            <a href="#" class="menu__bott">О нас</a>
+            <a href ="#" class="menu__bott bott-konec">Контакты</a>
+            <a href="#"  class="menu__bott bott-konec">Соглащение пользователя</a>
+            <a href="#" class="menu__bott bott-konec">FAQ</a>
+            <a href="#" class="menu__bott bott-konec">Брендам</a>
+
+        </div>
+
+        <div class="head__soc">
+            <a href="#" class="fab fa-instagram znack__ssilka fa-2x "></a>
+            <a href="#" class="fab fa-vk znack__ssilka fa-2x "></a>
+            <a href="#" class="fab fa-viber znack__ssilka fa-2x "></a>
+        </div>
+
+
+        <a href="#" class="znack__ssilka ">
+            <div class="button button_znack">
+                <i class="fas fa-wrench"></i>
+                <div class="znack__img-txt">Поддержка</div>
+            </div>
+        </a>
+
+
+
+    </div>
+
+
+    <div class="head__poloska">
+    </div>
+</div>
+
+</body>
+<link rel="stylesheet" type="text/css" href="header/style/Header.css" >
+<link rel="stylesheet" type="text/css" href="bread/style/bread.css" >
+<link rel="stylesheet" type="text/css" href="Elements.css">
+<link rel="stylesheet" type="text/css" href="Page/style/Page.css" >
+<link rel="stylesheet" type="text/css" href="formi/style/formii.css" >
+<link rel="stylesheet" type="text/css" href="MN/style/MN.css" >
+<link rel="stylesheet" type="text/css" href="Tovar/style/Tovar.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+<script src="Modul/Jquery/jquery-3.3.1.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+                    history:false,
+                    grafik:false,
+                    person:false,
+                    dostavka:false
+                }
+    });
+
+    $(function(){
+
+        $('.some_link1').on('click', function(e){
+            $('html,body').stop().animate({ scrollTop: $('#arenda').offset().top }, 1000);
+            e.preventDefault();
+        });
+
+        $('.some_link2').on('click', function(e){
+            $('html,body').stop().animate({ scrollTop: $('#izbran').offset().top }, 1000);
+            e.preventDefault();
+        });
+
+        $('.some_link3').on('click', function(e){
+            $('html,body').stop().animate({ scrollTop: $('#like').offset().top }, 1000);
+            e.preventDefault();
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Mnenia/style/Mnenia.css" >
+    <link rel="stylesheet" type="text/css" href="header/style/Header.css" >
+    <link rel="stylesheet" type="text/css" href="bread/style/bread.css" >
+    <link rel="stylesheet" type="text/css" href="Elements.css">
+    <link rel="stylesheet" type="text/css" href="Page/style/Page.css" >
+    <link rel="stylesheet" type="text/css" href="formi/style/formii.css" >
+    <title>Title</title>
+    <style>
+        @import "//fonts.fontstorage.com/import/beermoney.css";
+        @import "//fonts.fontstorage.com/import/museosanscyrl.css";
+        @import "//fonts.fontstorage.com/import/kelson.css";
+
+        .MN__img-big{
+            width: 100px;
+        }
+        .MN__img{
+            width: 50px;
+        }
+        .MN__img-karta
+        {
+            width: 300px;
+
+        }
+        .MN__karti
+        {
+            margin-top: 10px;
+            width: 1400px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .MN__kart
+        {
+            position: relative;
+            margin: 3px 5px 3px 5px;
+
+        }
+        .MN__like
+        {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FFF4E0;
+            opacity: 0;
+
+        }
+
+        .MN__kart:hover .MN__like{
+            animation: opacity  0.4s 1 ease-in-out;
+            opacity: 1;
+
+        }
+        .MN__ssilka{
+            z-index: 10;
+            text-decoration: none;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+        .MN__head
+        {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .MN__Mnenia
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        @keyframes opacity {
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 1416px){
+            .MN__karti
+            {
+                margin-top: 10px;
+                width: 1000px;
+                margin-right: auto;
+                margin-left: auto;
+
+            }
+        }
+    </style>
+</head>
+<body class="page">
+
+<div class="head page_head ">
+
+
+    <div class="contact head__contact">
+        <a href="#" class="contact__ssilka contact__ssilka_theme-left">город:</a>
+        <a href="#" class="contact__ssilka">доставка</a>
+        <a href="#" class="contact__ssilka">условия</a>
+        <a href="#" class="contact__ssilka">о нас</a>
+    </div>
+
+
+
+    <div class="header head__page">
+        <a href="#"  class="header_logo_img"> <img class="logo__img" src="./header/img/logo1_1.svg"/></a>
+        <div class="search header_search">
+            <input type="text" class="input input__search" >
+            <a href="#"><div class="button search__button">Искать</div></a>
+        </div>
+
+        <div class="znack header_znack">
+            <a href="#" class="znack__ssilka"><img class="znack__img" src="./header/img/like.svg"/>
+                <div class="znack__img-txt">Лайкнутое</div>
+            </a>
+            <a href="#" class="znack__ssilka"><img class="znack__img" src="./header/img/zvezda.svg"/>
+                <div class="znack__img-txt">Избранное</div>
+            </a>
+            <a href="#" class="znack__ssilka"><img class="znack__img" src="./header/img/user-silhouette.svg"/>
+                <div class="znack__img-txt">Кабинет</div>
+            </a>
+            <a href="#" class="znack__ssilka znack__ssilka_margin-right_0"><img class="znack__img" src="./header/img/corzina.svg"/>
+                <div class="znack__img-txt">Корзина</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="menu head__menu">
+        <a href="#" class="menu__ssilka"><div class="button menu__button menu__button__color__red">Мнения</div></a>
+        <a href="#" class="menu__ssilka"><div class="button menu__button">Верхняя одежда</div></a>
+        <a href="#" class="menu__ssilka"><div class="button menu__button ">Штаны</div></a>
+        <a href="#" class="menu__ssilka"><div class="button menu__button ">Обувь</div></a>
+        <a href="#" class="menu__ssilka"><div class="button menu__button ">Сеты</div></a>
+    </div>
+    <div class="head__poloska">
+    </div>
+</div>
+
+<div class="bread">
+    <div class="bread__element"><a href="#" class="bread__element_el">Главная</a></div>
+    <div class="bread__element bread__element__konec"><a href="#" class="bread__element_el bread__element_el_color_black">Мнения</a></div>
+</div>
+
+<div class="MN MN__Mnenia">
+
+    <div class="Mnenia__page">
+        <div class="Mnenia">
+
+            <div class="Mnenia__top">
+
+                <div class="Mnenia__ava">
+
+                </div>
+
+                <div class="Mnenia__name">
+                    <a href="#" class="Mnenia__name_text">Leon_Sios</a>
+                </div>
+
+                <a href="#" class="fas fa-times fa-2x Mnenia__close"></a>
+
+            </div>
+            <form>
+                <div class="formii formii_theme_none formii__element">
+
+                    <div class="zagolovok formii__zagolovok">Опишите вещь или сет</div>
+                    <textarea  class="formii__input_text formii__element"></textarea>
+
+                    <div class="zagolovok formii__zagolovok">Добавьте фото</div>
+                    <input type="file" class="formii__element">
+                    <button class="Button Button_theme_red formii__element"> Готово</button>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</html>

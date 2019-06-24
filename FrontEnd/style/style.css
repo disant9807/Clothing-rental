@@ -1,0 +1,60 @@
+
+.headerrrr{
+	
+	font-family: tahoma, sans-serif;
+	    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+	text-color: white;
+	
+}
+
+.Head-menu{
+	
+	background-color: #004c97;
+	
+}
+.glav{
+	margin-top: 100px;
+	padding: 2em;
+}
+
+
+
+.Header-Zag
+{
+	color: #d38235;
+}
+
+.higher{
+	background-color: #fff;
+    height: 123px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+	float: left;
+    margin-right: 50px !important;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.slogan
+{
+	    color: #7b7c80;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.kartinka
+{
+	position: absolute;
+	z-index: -100;
+}
+
+.container_12
+{
+	    margin-left: auto;
+    margin-right: auto;
+}

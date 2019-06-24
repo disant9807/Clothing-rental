@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="LeftMenu/style/LeftMenu.css" >
+    <link rel="stylesheet" type="text/css" href="header/style/Header.css" >
+    <link rel="stylesheet" type="text/css" href="tovars/style/tovars.css" >
+    <link rel="stylesheet" type="text/css" href="bread/style/bread.css" >
+    <link rel="stylesheet" type="text/css" href="Elements.css" >
+    <link rel="stylesheet" type="text/css" href="Page/style/Page.css" >
+    <style>
+        @import "//fonts.fontstorage.com/import/beermoney.css";
+        @import "//fonts.fontstorage.com/import/museosanscyrl.css";
+        @import "//fonts.fontstorage.com/import/kelson.css";
+
+        .Tovars__page
+        {
+            width: 1100px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        @media (max-width: 1416px)
+        {
+            .Page__LeftMenu__Tovars
+            {
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .Tovars__page
+            {
+                width: 800px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+        }
+        .Page__LeftMenu__Tovars
+        {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .page
+        {
+            font-family: 'Museo Sans Cyrl',Sans-Serif;
+            background-color:#FFF4E0;
+
+        }
+        .Page_bread
+        {
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body class="page">
+
+<div class="head page_head ">
+
+    <div class="contact head__contact">
+        <a href="#" class="contact__ssilka contact__ssilka_theme-left">город:</a>
+        <a href="#" class="contact__ssilka">доставка</a>
+        <a href="#" class="contact__ssilka">условия</a>
+        <a href="#" class="contact__ssilka">о нас</a>
+    </div>
+    <div class="contact_poloska"></div>
+    <div class="head__poloska">
+    </div>
+
+    <div class="header head__page">
+        <a href="#"  class="header_logo_img"> <img class="logo__img" src="./img/logo.png"/></a>
+
+
+        <a href="#" class="menu__ssilka znack__ssilka"><div class="button menu__button ">Каталог товаров</div></a>
+        <div class="button search header_search znack__ssilka znack__ssilka_margin-right_0">
+            <input type="text" class="input input__search" >
+            <a href="#" class="znack__ssilka"><div class="search__button">Искать</div></a>
+        </div>
+
+
+
+
+        <a href="#" class="znack__ssilka ">
+            <div class="button button_znack">
+                <i class="fas fa-heart"></i>
+                <div class="znack__img-txt">Лайкнутое</div>
+            </div>
+        </a>
+
+        <a href="#" class="znack__ssilka">
+            <div class="button button_znack"><i class="fas fa-user"></i><div class="znack__img-txt">Кабинет</div></div>
+        </a>
+        <a href="#" class="znack__ssilka znack__ssilka_margin-right_0">
+            <div class="button button_znack">
+                <i class="fas fa-shopping-cart"></i>
+                <div class="znack__img-txt">Корзина</div>
+            </div>
+        </a>
+
+    </div>
+
+
+    <div class="head__poloska">
+    </div>
+</div>
+
+<div class="bread">
+    <div class="bread__element"><a href="#" class="bread__element_el">Главная</a></div>
+    <div class="bread__element"><a href="#" class="bread__element_el">Верхняя одежда</a></div>
+    <div class="bread__element bread__element__konec"><a href="#" class="bread__element_el bread__element_el_color_black">Куртки</a></div>
+</div>
+
+<div class="Page__LeftMenu__Tovars">
+<div class="LeftMenu">
+    <div class="LeftMenu__kategorii">
+
+        <div class="LeftMenu__kategorii-element "> <a href="#" class="ssilka zagolovok LeftMenu__kategorii-ssilka zagolovok_theme_fat">Куртки</a></div>
+        <div class="LeftMenu__kategorii-element "><a href="#" class="ssilka zagolovok LeftMenu__kategorii-ssilka">Кофты</a></div>
+        <div class="LeftMenu__kategorii-element "><a href="#" class="ssilka zagolovok LeftMenu__kategorii-ssilka">Свитшоты</a></div>
+        <div class="LeftMenu__kategorii-element "><a href="#" class="ssilka zagolovok LeftMenu__kategorii-ssilka">Майки</a></div>
+
+
+    </div>
+    <div class="LeftMenu__poloska">
+
+    </div>
+    <div class="LeftMenu__filter">
+
+            <form method="post" class="LeftMenu__filter__form">
+
+                <div class=class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                     Название
+                    </div>
+                    <input type="text" name="named" required class="LeftMenu__filter__input" >
+                </div>
+
+                <div class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                    Бренд
+                    </div>
+                    <input type="text" name="brand" required class="LeftMenu__filter__input">
+                </div>
+
+                <div class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                        Сезон
+                    </div>
+                    <input type="checkbox" name="Sezon" value="Leto" class="LeftMenu__filter__checked">Лето
+                    <input type="checkbox" name="browser" value="Osen" class="LeftMenu__filter__checked">Осень
+                    <input type="checkbox" name="browser" value="Zima" class="LeftMenu__filter__checked">Зима
+                    <input type="checkbox" name="browser" value="vesna" class="LeftMenu__filter__checked">Весна
+                </div>
+
+                <div class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                     Пол
+                    </div>
+                    <input type="checkbox" name="Sex" value="Man" class="LeftMenu__filter__checked">Мужской
+                    <input type="checkbox" name="Sex" value="Woman" class="LeftMenu__filter__checked">Женский
+                </div>
+
+                <div class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                        Размер
+                    </div>
+                    <input type="checkbox" name="Size" value="S" class="LeftMenu__filter__checked">S
+                    <input type="checkbox" name="Size" value="XS" class="LeftMenu__filter__checked">XS
+                    <input type="checkbox" name="Size" value="M" class="LeftMenu__filter__checked">M
+                    <input type="checkbox" name="Size" value="XM" class="LeftMenu__filter__checked">XM
+                    <input type="checkbox" name="Size" value="L" class="LeftMenu__filter__checked">L
+                    <input type="checkbox" name="Size" value="XL" class="LeftMenu__filter__checked">XL
+                    <input type="checkbox" name="Size" value="XXL" class="LeftMenu__filter__checked">XXL
+                </div>
+                <div class="LeftMenu__filter__form__element">
+                    <div class="zagolovok LeftMenu__filter__zagalovok">
+                        Стоимость
+                    </div>
+                    <label> От <input type="text" name="cena" class="LeftMenu__filter__input LeftMenu__filter__input__size__50"> До <input type="text" name="cena" class="LeftMenu__filter__input LeftMenu__filter__input__size__50"></label>
+                </div>
+                <button class="Button LeftMenu_filter-button">Применить</button>
+            </form>
+
+    </div>
+</div>
+
+
+
+<div class="Tovars Tovars__page">
+    <div class="Sorting">
+        <a href="#" class="Sorting_el">Стоимость</a>
+        <a href="#" class="Sorting_el">Дата добавления</a>
+        <a href="#" class="Sorting_el">Отзывы</a>
+        <a href="#" class="Sorting_el">Аренда</a>
+        <a href="#" class="Sorting_el">Любимые</a>
+        <a href="#" class="Sorting_el">Избранное</a>
+    </div>
+    <div class="Tovars_bloki">
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_two.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_two.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_two.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+        </div>
+
+        <div class="tovars ">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+
+        </div>
+        <div class="tovars ">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+
+        </div>
+        <div class="tovars ">
+            <a href="#" class="tovars__ssilka">
+                <div class="tovars__poloska">
+
+                </div>
+                <div class="tovars__head">
+                    <div class="tovars__head__top">
+                        Товар 1
+                    </div>
+                    <div class="tovars__head__price">
+                        100 руб/день
+                    </div>
+                </div>
+                <div class="tovars__img">
+                    <img src="tovars/img/krossy_one.jpg" class="tovars__img__photo">
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="bread bread_theme_bottom bread_size_big Page_bread">
+    <div class="bread__element"><a href="#" class="bread__element_el">1</a></div>
+    <div class="bread__element"><a href="#" class="bread__element_el">2</a></div>
+    <div class="bread__element bread__element__konec"><a href="#" class="bread__element_el bread__element_el_color_black">3</a></div>
+</div>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</body>
+</html>

@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2972063c-b8f8-4737-8bf0-b4033678af26" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Kabinet/style/Kabinet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fonts/Style/fonts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/style/Page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4182">
+              <caret line="246" selection-start-line="246" selection-end-line="248" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/style/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tovar_v2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5270">
+              <caret line="310" column="106" selection-start-line="310" selection-start-column="106" selection-end-line="310" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LK_Kabinet_v2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13447">
+              <caret line="791" column="4" selection-start-line="791" selection-start-column="4" selection-end-line="816" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11679">
+              <caret line="687" column="14" selection-start-line="687" selection-start-column="14" selection-end-line="687" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="230" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/tovar_v2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7922">
+              <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2_tovars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DatePicker/style/Data.css" />
+        <option value="$PROJECT_DIR$/Bot_Card-curier.html" />
+        <option value="$PROJECT_DIR$/Bot_spispok-clientov.html" />
+        <option value="$PROJECT_DIR$/Bot_spispok-prybil.html" />
+        <option value="$PROJECT_DIR$/Bot_spispok-otz.html" />
+        <option value="$PROJECT_DIR$/Bot_Card-Otz.html" />
+        <option value="$PROJECT_DIR$/Bot_spispok-kurierov.html" />
+        <option value="$PROJECT_DIR$/Kalendar/style/calend.css" />
+        <option value="$PROJECT_DIR$/Kalendar/calend.html" />
+        <option value="$PROJECT_DIR$/Bot_Add_zakaz.html" />
+        <option value="$PROJECT_DIR$/Find_tovars/style/Find_Tovars.css" />
+        <option value="$PROJECT_DIR$/Main/style/Main.css" />
+        <option value="$PROJECT_DIR$/fonts/Style/fonts.css" />
+        <option value="$PROJECT_DIR$/Bot_spispok-TVR.html" />
+        <option value="$PROJECT_DIR$/Bot_Prinatie-zakaza.html" />
+        <option value="$PROJECT_DIR$/Bot_spispok-zakaz.html" />
+        <option value="$PROJECT_DIR$/Bot_Card-klient.html" />
+        <option value="$PROJECT_DIR$/Bot_Card-Tovars.html" />
+        <option value="$PROJECT_DIR$/Bot_Vozvrat-tovara.html" />
+        <option value="$PROJECT_DIR$/bread/style/bread.css" />
+        <option value="$PROJECT_DIR$/tovars/style/tovars.css" />
+        <option value="$PROJECT_DIR$/sets/style/Sets.css" />
+        <option value="$PROJECT_DIR$/Elements.css" />
+        <option value="$PROJECT_DIR$/Tovar/style/Tovar.css" />
+        <option value="$PROJECT_DIR$/Otzyvi/style/Otzyvi.css" />
+        <option value="$PROJECT_DIR$/SET/style/SET.css" />
+        <option value="$PROJECT_DIR$/Tvr/style/Tvr.css" />
+        <option value="$PROJECT_DIR$/Kabinet/style/Kabinet.css" />
+        <option value="$PROJECT_DIR$/Main.html" />
+        <option value="$PROJECT_DIR$/LK_Kabinet_v2.html" />
+        <option value="$PROJECT_DIR$/Dostavka_v2.html" />
+        <option value="$PROJECT_DIR$/Dostavka/style/Dostavka.css" />
+        <option value="$PROJECT_DIR$/tovar-set_v2.html" />
+        <option value="$PROJECT_DIR$/tovar_v2.html" />
+        <option value="$PROJECT_DIR$/Find_tovars_v2.html" />
+        <option value="$PROJECT_DIR$/Colonka/style/Colonka.css" />
+        <option value="$PROJECT_DIR$/Find_set_v2.html" />
+        <option value="$PROJECT_DIR$/Korzina/style/korz.css" />
+        <option value="$PROJECT_DIR$/Katalog/style/Katalog.css" />
+        <option value="$PROJECT_DIR$/Menu/style/Menu.css" />
+        <option value="$PROJECT_DIR$/korzina_v2.html" />
+        <option value="$PROJECT_DIR$/history/style/history.css" />
+        <option value="$PROJECT_DIR$/History__v2.html" />
+        <option value="$PROJECT_DIR$/Bot_Rasp-zakaz.html" />
+        <option value="$PROJECT_DIR$/Kabinet_v2.html" />
+        <option value="$PROJECT_DIR$/Page/style/Page.css" />
+        <option value="$PROJECT_DIR$/header/style/Header.css" />
+        <option value="$PROJECT_DIR$/base/style/base.css" />
+        <option value="$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2_tovars.html" />
+        <option value="$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2.html" />
+        <option value="$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/tovar_v2.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1055" />
+    <option name="width" value="870" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="Style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="history" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="Kabinet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArendaSchmot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArendaSchmot" type="462c0819:PsiDirectoryNode" />
+              <item name="Kabinet" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2.html" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dspic\WebstormProjects\ArendaSchmot" />
+      <recent name="C:\Users\dspic\WebstormProjects\ArendaSchmot\bread\style" />
+      <recent name="C:\Users\dspic\WebstormProjects\ArendaSchmot\sets\style" />
+      <recent name="C:\Users\dspic\WebstormProjects\ArendaSchmot\header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dspic\WebstormProjects\ArendaSchmot" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2972063c-b8f8-4737-8bf0-b4033678af26" name="Default Changelist" comment="" />
+      <created>1547951594646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547951594646</updated>
+      <workItem from="1547951597938" duration="10021000" />
+      <workItem from="1548073519998" duration="7803000" />
+      <workItem from="1548147350218" duration="18225000" />
+      <workItem from="1548242355245" duration="4234000" />
+      <workItem from="1548470867424" duration="595000" />
+      <workItem from="1548480531652" duration="11276000" />
+      <workItem from="1548672339352" duration="596000" />
+      <workItem from="1548741214560" duration="8083000" />
+      <workItem from="1548844049647" duration="269000" />
+      <workItem from="1549860385842" duration="2711000" />
+      <workItem from="1550034454219" duration="2917000" />
+      <workItem from="1550046291585" duration="6251000" />
+      <workItem from="1550063293828" duration="968000" />
+      <workItem from="1550145720210" duration="6646000" />
+      <workItem from="1550373702275" duration="16748000" />
+      <workItem from="1550409981603" duration="4951000" />
+      <workItem from="1550451617080" duration="8285000" />
+      <workItem from="1550471475242" duration="8897000" />
+      <workItem from="1550538375379" duration="4063000" />
+      <workItem from="1550554103431" duration="599000" />
+      <workItem from="1550624813204" duration="852000" />
+      <workItem from="1550667387571" duration="524000" />
+      <workItem from="1550670659643" duration="591000" />
+      <workItem from="1550672655503" duration="317000" />
+      <workItem from="1550678235498" duration="163000" />
+      <workItem from="1550679209873" duration="580000" />
+      <workItem from="1550802578560" duration="1201000" />
+      <workItem from="1550809459258" duration="482000" />
+      <workItem from="1550810024048" duration="6864000" />
+      <workItem from="1550839197048" duration="1912000" />
+      <workItem from="1550892012307" duration="23259000" />
+      <workItem from="1550972227988" duration="596000" />
+      <workItem from="1551010471819" duration="170000" />
+      <workItem from="1551013485456" duration="2000" />
+      <workItem from="1551014350907" duration="238000" />
+      <workItem from="1551170738926" duration="10034000" />
+      <workItem from="1551184513981" duration="5636000" />
+      <workItem from="1551233972505" duration="11105000" />
+      <workItem from="1551254498093" duration="14420000" />
+      <workItem from="1551274953081" duration="1801000" />
+      <workItem from="1551322559158" duration="302000" />
+      <workItem from="1551358815612" duration="2780000" />
+      <workItem from="1551361782024" duration="3707000" />
+      <workItem from="1551367450912" duration="598000" />
+      <workItem from="1551407361875" duration="4109000" />
+      <workItem from="1551422099571" duration="1712000" />
+      <workItem from="1551424471156" duration="11310000" />
+      <workItem from="1551448554495" duration="1068000" />
+      <workItem from="1551579270390" duration="17678000" />
+      <workItem from="1551672796785" duration="4447000" />
+      <workItem from="1551698740925" duration="7447000" />
+      <workItem from="1551777878491" duration="10133000" />
+      <workItem from="1551839677819" duration="4402000" />
+      <workItem from="1551863667463" duration="17830000" />
+      <workItem from="1551925686840" duration="3181000" />
+      <workItem from="1551932081588" duration="4301000" />
+      <workItem from="1552051327536" duration="5681000" />
+      <workItem from="1552091681701" duration="10822000" />
+      <workItem from="1552139316041" duration="597000" />
+      <workItem from="1552214465998" duration="596000" />
+      <workItem from="1552561430836" duration="6727000" />
+      <workItem from="1552615704802" duration="3587000" />
+      <workItem from="1552721017178" duration="15899000" />
+      <workItem from="1552788681120" duration="22417000" />
+      <workItem from="1552893545413" duration="8862000" />
+      <workItem from="1552964338945" duration="1198000" />
+      <workItem from="1552983688203" duration="18425000" />
+      <workItem from="1553048652519" duration="4255000" />
+      <workItem from="1553070801608" duration="6485000" />
+      <workItem from="1553155261505" duration="14180000" />
+      <workItem from="1553181906569" duration="387000" />
+      <workItem from="1553221688900" duration="4910000" />
+      <workItem from="1553230875452" duration="14679000" />
+      <workItem from="1553318210155" duration="12629000" />
+      <workItem from="1553394599144" duration="5318000" />
+      <workItem from="1553417892508" duration="16222000" />
+      <workItem from="1553514828913" duration="7722000" />
+      <workItem from="1553576338669" duration="17762000" />
+      <workItem from="1553653650377" duration="3036000" />
+      <workItem from="1553686256756" duration="1456000" />
+      <workItem from="1553773799622" duration="593000" />
+      <workItem from="1553841288757" duration="6197000" />
+      <workItem from="1553910507212" duration="23923000" />
+      <workItem from="1554005535233" duration="15843000" />
+      <workItem from="1554109994920" duration="3574000" />
+      <workItem from="1554198000307" duration="9955000" />
+      <workItem from="1554262268153" duration="1807000" />
+      <workItem from="1554289006076" duration="9260000" />
+      <workItem from="1554360974568" duration="22310000" />
+      <workItem from="1554395490422" duration="3196000" />
+      <workItem from="1554430037688" duration="5147000" />
+      <workItem from="1554442774663" duration="598000" />
+      <workItem from="1554518904215" duration="425000" />
+      <workItem from="1554520032086" duration="15326000" />
+      <workItem from="1554600702733" duration="26456000" />
+      <workItem from="1554718395323" duration="12296000" />
+      <workItem from="1554781115696" duration="63000" />
+      <workItem from="1554803017485" duration="20963000" />
+      <workItem from="1554867266895" duration="2276000" />
+      <workItem from="1554883538661" duration="11138000" />
+      <workItem from="1554950157982" duration="575000" />
+      <workItem from="1554950850058" duration="3625000" />
+      <workItem from="1554955513362" duration="5019000" />
+      <workItem from="1554963446193" duration="1761000" />
+      <workItem from="1554969988549" duration="51000" />
+      <workItem from="1555075747178" duration="926000" />
+      <workItem from="1555208963982" duration="598000" />
+      <workItem from="1555329165817" duration="597000" />
+      <workItem from="1555407741062" duration="5006000" />
+      <workItem from="1555468059101" duration="3704000" />
+      <workItem from="1555501224608" duration="6966000" />
+      <workItem from="1555578489982" duration="2725000" />
+      <workItem from="1555666163213" duration="607000" />
+      <workItem from="1555829614763" duration="597000" />
+      <workItem from="1555834786019" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="728443000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15994713" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.04249292" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16060807" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.04249292" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Main/style/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeftMenu/style/LeftMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kalendar/style/calend.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4284">
+          <caret line="252" column="1" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formi/style/formii.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Find_tovars/style/Find_Tovars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deistvia/style/deistvia.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatePicker/style/Data.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkbox/style/checkbox.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breadkfest/style/breadkfest.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Card-Tovars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="101" column="83" selection-start-line="101" selection-start-column="83" selection-end-line="101" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Add_tovar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="171" column="18" lean-forward="true" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_spispok-clientov.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Card-klient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="466" column="115" selection-start-line="466" selection-start-column="115" selection-end-line="466" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sets/style/Sets.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="196" column="23" selection-start-line="196" selection-start-column="23" selection-end-line="196" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bread/style/bread.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tovars/style/tovars.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tovar/style/Tovar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Otzyvi/style/Otzyvi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SET/style/SET.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tvr/style/Tvr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dostavka_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6409">
+          <caret line="377" column="75" selection-start-line="377" selection-end-line="378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dostavka/style/Dostavka.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Find_tovars_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="260" column="54" selection-start-line="260" selection-start-column="54" selection-end-line="260" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Colonka/style/Colonka.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/History__v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8857">
+          <caret line="521" column="5" selection-start-line="521" selection-start-column="5" selection-end-line="521" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_spispok-TVR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5814">
+          <caret line="342" column="16" selection-start-line="342" selection-start-column="16" selection-end-line="384" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Find_set_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10455">
+          <caret line="615" column="4" selection-start-line="615" selection-start-column="4" selection-end-line="630" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Korzina/style/korz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Katalog/style/Katalog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_spispok-zakaz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="14" selection-start-line="88" selection-start-column="8" selection-end-line="90" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history/style/history.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Rasp-zakaz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Prinatie-zakaza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="82" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bot_Vozvrat-tovara.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2924">
+          <caret line="172" column="11" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mnenia.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu/style/Menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tovar-set_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="428" column="95" selection-start-line="428" selection-start-column="95" selection-end-line="428" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/korzina_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7837">
+          <caret line="461" column="5" selection-start-line="461" selection-start-column="5" selection-end-line="461" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kabinet_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header/style/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kabinet/style/Kabinet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/Style/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/style/Page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4182">
+          <caret line="246" selection-start-line="246" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/style/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tovar_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5270">
+          <caret line="310" column="106" selection-start-line="310" selection-start-column="106" selection-end-line="310" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LK_Kabinet_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13447">
+          <caret line="791" column="4" selection-start-line="791" selection-start-column="4" selection-end-line="816" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11679">
+          <caret line="687" column="14" selection-start-line="687" selection-start-column="14" selection-end-line="687" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="230" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/tovar_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7922">
+          <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ArendaSchmotBackend/venv/Lib/site-packages/BackArendaSchmot/templates/Find_tovars_v2_tovars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

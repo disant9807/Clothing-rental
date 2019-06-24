@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление сета</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body style="  background-color:#FFF4E0;">
+
+<nav class="navbar navbar-expand-lg navbar-light  border border-dark " style="background-color: #F8B500;">
+    <a class="navbar-brand" href="./Main.html">Главная</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Каталог товаров
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Верхняя одежда</a>
+                    <a class="dropdown-item" href="#">Штаны</a>
+                    <a class="dropdown-item" href="#">Обувь</a>
+                    <a class="dropdown-item" href="#">Сеты</a>
+                </div>
+            </li>
+
+            <form class="form-inline ml-3 mr-3">
+                <input class="form-control mr-sm-2" type="search" placeholder="Товар" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Искать</button>
+            </form>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./Bot_spispok-prybil.html">Прибыль</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Корзина</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Списки
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./Bot_spispok-TVR.html">Список товаров</a>
+                    <a class="dropdown-item" href="./Bot_spispok-clientov.html">Список клиентов</a>
+                    <a class="dropdown-item" href="./Bot_spispok-kurierov.html">Список курьеров</a>
+                    <a class="dropdown-item" href="./Bot_spispok-zakaz.html">Список заказов</a>
+                    <a class="dropdown-item" href="./Bot_spispok-otz.html">Список отзывов</a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Компания
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./Bot_Opcii_suite.html">Опции</a>
+                    <a class="dropdown-item" href="#">Изменить акции</a>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-3">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+            <li class="breadcrumb-item"><a href="#">Список товаров</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Добавление Сета</li>
+        </ol>
+    </nav>
+
+
+    <h1 class="mb-3 text-center">Добавление Сета</h1>
+
+
+    <div class="row justify-content-center">
+        <div class="col col-xl-7 col-lg-8 col-md-10 ">
+
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Название товара</label>
+        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nike Air-max">
+        <small id="emailHelp" class="form-text text-muted">Пишите название товара + модель.</small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Описание товара</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <div class="form-row ">
+
+    <div class="form-group col-md-6">
+        <label>Размеры</label>
+        <div class="d-flex">
+            <div class="custom-control custom-checkbox ml-2 mr-2">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">S</label>
+            </div>
+            <div class="custom-control custom-checkbox ml-2 mr-2">
+                <input type="checkbox" class="custom-control-input" id="customCheck2">
+                <label class="custom-control-label" for="customCheck2">M</label>
+            </div>
+            <div class="custom-control custom-checkbox ml-2 mr-2">
+                <input type="checkbox" class="custom-control-input" id="customCheck3">
+                <label class="custom-control-label" for="customCheck3">XM</label>
+            </div>
+            <div class="custom-control custom-checkbox ml-2 mr-2">
+                <input type="checkbox" class="custom-control-input" id="customCheck4">
+                <label class="custom-control-label" for="customCheck4">L</label>
+            </div>
+            <div class="custom-control custom-checkbox ml-2 mr-2">
+                <input type="checkbox" class="custom-control-input" id="customCheck5">
+                <label class="custom-control-label" for="customCheck5">XL</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group col-md-6">
+        <label>Есть или нет?</label>
+        <div class="d-flex">
+            <div class="custom-control custom-radio ml-2 mr-2">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">В наличии</label>
+            </div>
+            <div class="custom-control custom-radio ml-2 mr-2">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Нет в наличии</label>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group bg-white p-2 col-md-6">
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                <label class="custom-control-label" for="customSwitch1">Возможность месячной аренды</label>
+            </div>
+            <label class="mt-2">Месячная плата</label>
+            <input type="text" class="form-control" placeholder="3000">
+        </div>
+
+        <div class="form-group bg-white  p-2 col-md-6">
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                <label class="custom-control-label" for="customSwitch2">Возможность взять погонять</label>
+            </div>
+            <label class="mt-2">Каждадневная плата</label>
+            <input type="text" class="form-control" placeholder="300">
+        </div>
+    </div>
+
+    <h4 class="text-center mt-4">Фото сета</h4>
+    <div class=" border bg-white p-4">
+
+    <div class="form-group">
+        <div class="form-row p-2 border border-primary align-items-strench ">
+            <div class="col-sm mt-2 mb-2 d-flex justify-content-center">
+                <div class="btn btn-primary">
+                    <h5 class="mb-3">Номер 1</h5>
+                    <label for="exampleFormControlFile1">Выберите фото товара</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </div>
+
+            <div class="col-sm mt-2 mb-2">
+
+                <div class="d-flex flex-column justify-content-center w-100">
+                    <a class="btn btn-primary mb-1" href="#" role="button"> <i class="fas fa-chevron-up mr-1"></i>Поднять</a>
+                    <a class="btn btn-primary mb-1 mt-1" href="#" role="button"><i class="fas fa-chevron-down mr-1"></i> Опустить</a>
+                    <a class="btn btn-danger mt-1" href="#" role="button">Удалить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="form-row border border-primary p-2 align-items-center d-flex justify-content-center">
+            <a href="#" class="btn btn-warning btn-lg">
+                <i class="fas fa-plus  mr-1"></i>
+                Добавить еще фото
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <h4 class="text-center mt-4">Вещи сета</h4>
+    <div class=" border bg-white p-4">
+
+        <div class="form-group">
+            <div class="form-row p-2 border border-primary align-items-strench ">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1 ml-2">Куртка Levis-zevis</h5>
+
+                        <small class="ml-2">12.03.2019</small>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <div class="d-flex ml-2 mr-2">
+                            <p class="mb-1 ">Тип: </p>
+                            <p class="mb-1 ml-1">Вещь</p>
+                        </div>
+                        <div class="d-flex ml-2 mr-2">
+                            <p class="mb-1 ">Вид: </p>
+                            <p class="mb-1 ml-1">куртка</p>
+                        </div>
+
+                        <div class="d-flex ml-2 mr-2">
+                            <p class="mb-1 ">Бренд: </p>
+                            <p class="mb-1 ml-1">Adidas</p>
+                        </div>
+
+                        <div class="d-flex ml-2 mr-2">
+                            <p class="mb-1 ">Аренда: </p>
+                            <p class="mb-1 ml-1">6000 р/мес</p>
+                        </div>
+                        <div class="d-flex ml-2 mr-2">
+                            <p class="mb-1 ">Погонять: </p>
+                            <p class="mb-1 ml-1">600 р/день</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">Список сетов</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="form-row border border-primary p-2 align-items-center d-flex justify-content-center">
+                <a href="#" class="btn btn-warning btn-lg">
+                    <i class="fas fa-plus  mr-1"></i>
+                    Добавить еще Вещь
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+    <button type="submit" class="btn   btn-success btn-lg ml-2 mt-3 mb-3">Сохранить</button>
+    </div>
+</form>
+</div>
+    </div>
+</div>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="header/style/Header.css" >
+<link rel="stylesheet" type="text/css" href="Page/style/Page.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
